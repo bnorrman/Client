@@ -2397,7 +2397,6 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 100%;
 			margin-left: 0;
 		}
 
@@ -2619,6 +2618,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+		.mini-post:hover{
+			border-color: #00000;
+		}
+
 		.mini-post .image {
 			overflow: hidden;
 			width: 100%;
@@ -2637,6 +2640,7 @@ input, select, textarea {
 				-webkit-transform: scale(1.05);
 				-ms-transform: scale(1.05);
 				transform: scale(1.05);
+
 			}
 
 		.mini-post header {
